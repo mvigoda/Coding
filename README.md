@@ -7,6 +7,12 @@ The following code uses the chatGPT API and performs the following :
 	- Determine 5-7 medical considerations (one or two words in length) 
 3. Create Assessment and Plan
 	- Include relevant preventive health recommendations
+4. Identify the MEDICATIONS - and the relevant MEDICAL CONDITIONS
+5. Highlight the MEDICATIONS in the note
+6. Preventive Care Recommendations - as Written by Physician  
+	- Extract relevant information to form recommendations regarding preventive healthcare.
+	- 3-5 areas appropriate for the patient described in the clinical note.
+
 
 
 The notes are seen here:
