@@ -1,5 +1,12 @@
 # Coding
 
+A number of use cases are considered where chatGPT may prove useful for clinicians:
+1. Oncologists
+2. Primary Care Physicians
+
+Other use cases can be considered administrative:
+1. A patient has a medical concern and is interested in finding out when a particular is open.
+
 
 The following code uses the chatGPT API and performs the following :
 1. Read a clinic note
