@@ -13,7 +13,26 @@ The following code uses the chatGPT API and performs the following :
 	- Extract relevant information to form recommendations regarding preventive healthcare.
 	- 3-5 areas appropriate for the patient described in the clinical note.
 
+7. Show Specific Reasons for Recommendations
+	- Medical Consideration
+    	- Recommendation
+    	- Reason for Recommendation
 
+```Preventive Health Recommendations
+
+1. Cardiovascular Disease Prevention
+    a. The patient reports a family history of cardiovascular disease, with her father having a heart attack in his late 60s.
+    b. Medical History: The patient has a history of hypertension and hyperlipidemia, both of which are well-managed with medications.
+    c. Assessment and Plan: Recommend regular cardiovascular screening, including blood pressure and cholesterol checks, as well as lifestyle modifications such as smoking cessation and regular exercise.
+
+2. Cancer Screening
+    a. Family History: The patient's mother had colon cancer but is currently in remission.
+    b. Assessment and Plan: Recommend regular colon cancer screening, such as colonoscopy, as well as breast cancer screening, such as mammography.
+
+3. Smoking Cessation
+    a. Social History: The patient smokes 1/2 ppd.
+    b. Assessment and Plan: Recommend smoking cessation interventions, such as nicotine replacement therapy or counseling, to reduce the risk of lung cancer and other smoking-related illnesses.
+```
 
 The notes are seen here:
 
