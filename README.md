@@ -19,9 +19,9 @@
 
 Name | Link | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`Cancer Patient Synopsis of Multiple Clinic Notes`| [_Numpy_](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | Basic Python | Philip | 🟨
-`PCP Preventive Care Recommendations`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | TBC | 🟨
-`Clinic Scheduling`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
+`Cancer Patient Synopsis of Multiple Clinic Notes`| [_Oncology_](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | Basic Python | Philip | 🟨
+`Preventive Care Recommendations`| [_PCP_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | TBC | 🟨
+`Clinic Scheduling`| [_Administrative_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
 `TK04`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟩
 `TK05`| [_SQL_](https://github.com/UCL-DSS/SQL_workshop) | None | Philip | 🟩
 
