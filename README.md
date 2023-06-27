@@ -1,4 +1,23 @@
-# ChatGPT use cases for Physicians
+# ChatGPT use cases for Physicians  
+
+
+
+Chat GPT can be helpful for physicians reviewing clinical records in several ways:
+
+1. Efficient Data Extraction: Physicians often need to extract key information from lengthy clinical records. Chat GPT can assist in automatically extracting relevant data points, such as patient demographics, medical history, medications, lab results, and diagnoses, by analyzing the text and generating structured summaries. This saves time and allows physicians to focus on interpreting the information rather than manually searching for it.
+
+2. Decision Support: Chat GPT can provide decision support by analyzing clinical records and offering insights based on patterns, guidelines, and previous similar cases. It can help identify potential drug interactions, flag abnormal test results, suggest further diagnostic tests or treatment options, and provide evidence-based recommendations. This assists physicians in making well-informed decisions and ensures they consider all relevant factors.
+
+3. Documentation Assistance: Physicians spend a significant amount of time documenting patient encounters. Chat GPT can aid in generating accurate and comprehensive clinical notes by analyzing the clinical records and providing suggestions for relevant information to include. It can also help with formatting, grammar, and terminology consistency, resulting in more efficient and standardized documentation.
+
+4. Natural Language Interface: Chat GPT can serve as a natural language interface, allowing physicians to interact with clinical records using conversational queries. Physicians can ask questions in plain language, such as "What was the patient's blood pressure during the last visit?" or "Has the patient reported any allergies?" Chat GPT can interpret these queries, search the clinical records, and provide relevant answers, saving time and improving accessibility to patient information.
+
+5. Educational Tool: Chat GPT can act as an educational resource for physicians, especially those in training or seeking additional information. It can provide explanations of complex medical terms, describe disease processes, offer treatment guidelines, or provide references to relevant research articles. This assists physicians in expanding their knowledge base and staying up-to-date with the latest medical advancements.
+
+**Obviously Chat GPT should not replace clinical expertise or judgment.**
+
+
+
 
 A number of use cases are considered where chatGPT may prove useful for clinicians:
 1. [Cancer Patient Synopsis of Multiple Clinic Notes](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb)
