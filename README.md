@@ -2,15 +2,19 @@
 
 
 
+
 Chat GPT can be helpful for physicians reviewing clinical records in several ways:
 
-1. Efficient Data Extraction: Chat GPT can assist in automatically extracting relevant data points, such as:
-	- Patient Demographics
+1. Efficient Data Extraction:  
+  Chat GPT can assist in automatically extracting relevant data points, such as:
+ 
+    - Patient Demographics
     - Medical History
     - Medications
     - Lab Results
-    - Diagnoses
-    and by Analyzing The Text And Generating Structured Summaries
+    - Diagnoses  
+    
+    In this manner, it can be used to **analyze text and generate structured summaries**.
 
 
 2. Decision Support: Chat GPT can provide decision support by analyzing clinical records and offering insights based on patterns, guidelines, and previous similar cases. It can help identify potential drug interactions, flag abnormal test results, suggest further diagnostic tests or treatment options, and provide evidence-based recommendations. This assists physicians in making well-informed decisions and ensures they consider all relevant factors.
