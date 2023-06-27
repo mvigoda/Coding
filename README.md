@@ -2,6 +2,33 @@
 
 **Obviously Chat GPT should not replace clinical expertise or judgment, but**
 
+
+
+> Legend:
+>
+> - 🟥: Not implemented
+> - 🟨: Legacy material available, to be updated or re-written
+> - 🟦: Available, modification required
+> - 🟩: Good to go
+
+
+
+
+
+### Toolkits for Data Scientists 🔬
+
+Code | Topic | Prerequisite | Assigned To | Status
+:---:|:-----:|:------------:|:-----------:|:-----------:
+`TK01`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Philip | 🟨
+`TK02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | TBC | 🟨
+`TK03`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
+`TK04`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟩
+`TK05`| [_SQL_](https://github.com/UCL-DSS/SQL_workshop) | None | Philip | 🟩
+
+
+
+
+
 Chat GPT can be helpful for physicians reviewing clinical records in several ways:
 
 ### Efficient Data Extraction   
@@ -13,6 +40,8 @@ Chat GPT can be helpful for physicians reviewing clinical records in several way
     - Lab Results
     - Diagnoses  
     
+
+
 In this manner, it can be used to **analyze text and generate structured summaries**.
 
 ### Decision Support  
