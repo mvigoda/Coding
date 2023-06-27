@@ -20,7 +20,7 @@
 Description | Link | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
 `Synopsis of Multiple Clinic Notes`| [_Oncology_](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | Basic Python | Philip | 🟨
-`Preventive Care Recommendations`| [_PCP_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | TBC | 🟨
+`Preventive Care Recommendations`| [_PCP_](https://github.com/UCL-DSS/pandas-workshop) | [PCP Annual Visit](#pcp-annual-visit---and-preventive-care-recommendations) | TBC | 🟨
 `Clinic Scheduling`| [_Administrative_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
 `Extract Lab Values`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟩
 `TK05`| [_SQL_](https://github.com/UCL-DSS/SQL_workshop) | None | Philip | 🟩
@@ -29,7 +29,7 @@ Description | Link | Prerequisite | Assigned To | Status
 
 
 
-[PCP Annual Visit](#pcp-annual-visit---and-preventive-care-recommendations)
+
 
 
 
@@ -78,7 +78,6 @@ A number of use cases are considered where chatGPT may prove useful for clinicia
 Other use cases can be considered administrative:
 1. A patient has a medical concern and is interested in finding out when a particular is open.
 
-## PCP Annual Visit - and Preventive Care Recommendations
 <a id="pcp-annual-visit---and-preventive-care-recommendations"></a>
 ## PCP Annual Visit - and Preventive Care Recommendations
 
