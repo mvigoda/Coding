@@ -1,6 +1,11 @@
 # Coding
 
 
+The following code uses the chatGPT API and performs the following :
+1. Read a clinic note
+2. Identify Medical Considerations based on Clinical Note
+	- Determine 5-7 medical considerations (one or two words in length) 
+
 
 
 The notes are seen here:
