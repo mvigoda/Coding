@@ -29,6 +29,10 @@ Description | Link | Prerequisite | Assigned To | Status
 
 
 
+[PCP Annual Visit](#pcp-annual-visit---and-preventive-care-recommendations)
+
+
+
 Chat GPT can be helpful for physicians reviewing clinical records in several ways:
 
 ### Efficient Data Extraction   
@@ -74,6 +78,8 @@ A number of use cases are considered where chatGPT may prove useful for clinicia
 Other use cases can be considered administrative:
 1. A patient has a medical concern and is interested in finding out when a particular is open.
 
+## PCP Annual Visit - and Preventive Care Recommendations
+<a id="pcp-annual-visit---and-preventive-care-recommendations"></a>
 ## PCP Annual Visit - and Preventive Care Recommendations
 
 The following code uses the chatGPT API and performs the following :
