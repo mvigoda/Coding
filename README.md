@@ -17,12 +17,15 @@
 
 ### Use Cases 
 
-Name | Link | Prerequisite | Assigned To | Status
+Description | Link | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`Cancer Patient Synopsis of Multiple Clinic Notes`| [_Oncology_](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | Basic Python | Philip | 🟨
+`Synopsis of Multiple Clinic Notes`| [_Oncology_](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | 
+Multiple clinic notes for the same patient
+Organize them in chronological order
+Extract relevant data from each visit to provide a synopsis | Philip | 🟨
 `Preventive Care Recommendations`| [_PCP_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | TBC | 🟨
 `Clinic Scheduling`| [_Administrative_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
-`TK04`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟩
+`Extract Lab Values`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟩
 `TK05`| [_SQL_](https://github.com/UCL-DSS/SQL_workshop) | None | Philip | 🟩
 
 
