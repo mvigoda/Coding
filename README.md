@@ -2,6 +2,9 @@
 
 A number of use cases are considered where chatGPT may prove useful for clinicians:
 1. [Cancer Patient Synopsis of Multiple Clinic Notes](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb)
+	- Multiple clinic notes for the same patient 
+	- Organize them in chronological order
+	- Extract relevant data from each visit to provide a synopsis
 2. Primary Care Physicians
 
 Other use cases can be considered administrative:
