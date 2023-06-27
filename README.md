@@ -11,7 +11,7 @@ Chat GPT can be helpful for physicians reviewing clinical records in several way
     - Lab Results
     - Diagnoses  
     
-    In this manner, it can be used to **analyze text and generate structured summaries**.
+In this manner, it can be used to **analyze text and generate structured summaries**.
 
 
 ### Decision Support  
