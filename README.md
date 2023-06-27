@@ -1,5 +1,7 @@
 # ChatGPT use cases for Physicians  
 
+**Obviously Chat GPT should not replace clinical expertise or judgment, but**
+
 Chat GPT can be helpful for physicians reviewing clinical records in several ways:
 
 ### Efficient Data Extraction   
@@ -14,11 +16,11 @@ Chat GPT can be helpful for physicians reviewing clinical records in several way
 In this manner, it can be used to **analyze text and generate structured summaries**.
 
 ### Decision Support  
-- analyzing clinical records and offering insights based on patterns, guidelines, and previous similar cases. 
-- identify potential drug interactions
-- flag abnormal test results  
-- suggest further diagnostic tests or treatment options  
-- provide evidence-based recommendations  
+- Analyzing clinical records and offering insights based on patterns, guidelines, and previous similar cases. 
+- Identify potential drug interactions
+- Flag abnormal test results  
+- Suggest further diagnostic tests or treatment options  
+- Provide evidence-based recommendations  
 
 ### Documentation Assistance  
 - Aid in generating accurate and comprehensive clinical notes by analyzing the clinical records and providing suggestions for relevant information to include
@@ -28,10 +30,7 @@ In this manner, it can be used to **analyze text and generate structured summari
 - Ask questions in plain language, such as "What was the patient's blood pressure during the last visit?" or "Has the patient reported any allergies?"
 - Interpret these queries, search the clinical records, and provide relevant answers, saving time and improving accessibility to patient information.
 
-### Educational Tool  
-Chat GPT can act as an educational resource for physicians, especially those in training or seeking additional information. It can provide explanations of complex medical terms, describe disease processes, offer treatment guidelines, or provide references to relevant research articles. This assists physicians in expanding their knowledge base and staying up-to-date with the latest medical advancements.
 
-**Obviously Chat GPT should not replace clinical expertise or judgment.**
 
 
 
