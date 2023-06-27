@@ -5,7 +5,8 @@ The following code uses the chatGPT API and performs the following :
 1. Read a clinic note
 2. Identify Medical Considerations based on Clinical Note
 	- Determine 5-7 medical considerations (one or two words in length) 
-
+3. Create Assessment and Plan
+	- Include relevant preventive health recommendations
 
 
 The notes are seen here:
