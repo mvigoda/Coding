@@ -1,7 +1,7 @@
 # Coding
 
 A number of use cases are considered where chatGPT may prove useful for clinicians:
-1. Oncologists
+1. Oncologists https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb
 2. Primary Care Physicians
 
 Other use cases can be considered administrative:
