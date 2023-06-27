@@ -16,15 +16,20 @@ In this manner, it can be used to **analyze text and generate structured summari
 ### Decision Support  
 - analyzing clinical records and offering insights based on patterns, guidelines, and previous similar cases. 
 - identify potential drug interactions
-- flag abnormal test results, suggest further diagnostic tests or treatment options, and provide evidence-based recommendations. This assists physicians in making well-informed decisions and ensures they consider all relevant factors.
+- flag abnormal test results  
+- suggest further diagnostic tests or treatment options  
+- provide evidence-based recommendations  
 
 ### Documentation Assistance  
-Physicians spend a significant amount of time documenting patient encounters. Chat GPT can aid in generating accurate and comprehensive clinical notes by analyzing the clinical records and providing suggestions for relevant information to include. It can also help with formatting, grammar, and terminology consistency, resulting in more efficient and standardized documentation.
+- Aid in generating accurate and comprehensive clinical notes by analyzing the clinical records and providing suggestions for relevant information to include
+- Help with formatting, grammar, and terminology consistency, resulting in more efficient and standardized documentation.
 
 ### Natural Language Interface  
-Chat GPT can serve as a natural language interface, allowing physicians to interact with clinical records using conversational queries. Physicians can ask questions in plain language, such as "What was the patient's blood pressure during the last visit?" or "Has the patient reported any allergies?" Chat GPT can interpret these queries, search the clinical records, and provide relevant answers, saving time and improving accessibility to patient information.
+- Ask questions in plain language, such as "What was the patient's blood pressure during the last visit?" or "Has the patient reported any allergies?"
+- Interpret these queries, search the clinical records, and provide relevant answers, saving time and improving accessibility to patient information.
 
-5. Educational Tool: Chat GPT can act as an educational resource for physicians, especially those in training or seeking additional information. It can provide explanations of complex medical terms, describe disease processes, offer treatment guidelines, or provide references to relevant research articles. This assists physicians in expanding their knowledge base and staying up-to-date with the latest medical advancements.
+### Educational Tool  
+Chat GPT can act as an educational resource for physicians, especially those in training or seeking additional information. It can provide explanations of complex medical terms, describe disease processes, offer treatment guidelines, or provide references to relevant research articles. This assists physicians in expanding their knowledge base and staying up-to-date with the latest medical advancements.
 
 **Obviously Chat GPT should not replace clinical expertise or judgment.**
 
