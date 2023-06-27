@@ -15,11 +15,11 @@
 
 
 
-### Toolkits for Data Scientists 🔬
+### Use Cases 
 
-Code | Topic | Prerequisite | Assigned To | Status
+Name | Link | Prerequisite | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`TK01`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Philip | 🟨
+`Cancer Patient Synopsis of Multiple Clinic Notes`| [_Numpy_](https://github.com/UCL-DSS/numpy-workshop) | Basic Python | Philip | 🟨
 `TK02`| [_Pandas_](https://github.com/UCL-DSS/pandas-workshop) | Basic Python | TBC | 🟨
 `TK03`| [_matplotlib_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
 `TK04`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟩
