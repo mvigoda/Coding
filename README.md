@@ -17,9 +17,9 @@
 
 ### Use Cases 
 
-Description | Link | Prerequisite | Assigned To | Status
+Description | Link | Overview | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`Synopsis of Multiple Clinic Notes`| [_Oncology_](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | Basic Python | Philip | 🟨
+`Synopsis of Multiple Clinic Notes`| [Oncology](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | [Synopsis of Multiple Clinic Notes](#synopsis-of-multiple-clinic-notes) | Philip | 🟨
 `Preventive Care Recommendations`| [_PCP_](https://github.com/UCL-DSS/pandas-workshop) | [PCP Annual Visit](#pcp-annual-visit---and-preventive-care-recommendations) | TBC | 🟨
 `Clinic Scheduling`| [_Administrative_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
 `Extract Lab Values`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟩
@@ -66,6 +66,10 @@ In this manner, it can be used to **analyze text and generate structured summari
 
 
 
+
+
+<a id="synopsis-of-multiple-clinic-notes"></a>
+### Synopsis of Multiple Clinic Notes
 
 
 A number of use cases are considered where chatGPT may prove useful for clinicians:
