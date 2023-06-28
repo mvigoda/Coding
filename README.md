@@ -69,7 +69,15 @@ In this manner, it can be used to **analyze text and generate structured summari
 
 
 <a id="synopsis-of-multiple-clinic-notes"></a>
-### Synopsis of Multiple Clinic Notes
+## Synopsis of Multiple Clinic Notes  
+
+Some Markdown text with <span style="color:red">some *red* text</span>.
+
+<div class="alert alert-block alert-danger">
+description goes here
+</div>
+
+ 
 
 
 A number of use cases are considered where chatGPT may prove useful for clinicians:
