@@ -20,7 +20,7 @@
 Description | Link | Overview | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
 `Synopsis of Multiple Clinic Notes`| [Oncology](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | [Synopsis of Multiple Clinic Notes](#synopsis-of-multiple-clinic-notes) | Philip | 🟨
-`Preventive Care Recommendations`| [PCP](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb) | [PCP Annual Visit](#pcp-annual-visit---and-preventive-care-recommendations) | TBC | 🟨
+`Preventive Care Recommendations`| [PCP](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb) | [PCP Annual Visit](#pcp-annual-visit-and-preventive-care-recommendations) | TBC | 🟨
 `Clinic Scheduling`| [_Administrative_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
 `Extract Lab Values`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟩
 `TK05`| [_SQL_](https://github.com/UCL-DSS/SQL_workshop) | None | Philip | 🟩
@@ -89,7 +89,7 @@ A number of use cases are considered where chatGPT may prove useful for clinicia
 Other use cases can be considered administrative:
 1. A patient has a medical concern and is interested in finding out when a particular is open.
 
-<a id="pcp-annual-visit---and-preventive-care-recommendations"></a>
+<a id="pcp-annual-visit-and-preventive-care-recommendations"></a>
 ## PCP Annual Visit - and Preventive Care Recommendations
 
 The following code uses the chatGPT API and performs the following :
