@@ -20,7 +20,7 @@
 Description | Link | Overview | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
 `Synopsis of Multiple Clinic Notes`| [Oncology](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | [Synopsis of Multiple Clinic Notes](#synopsis-of-multiple-clinic-notes) | Philip | 🟨
-`Preventive Care Recommendations`| [_PCP_](https://github.com/UCL-DSS/pandas-workshop) | [PCP Annual Visit](#pcp-annual-visit---and-preventive-care-recommendations) | TBC | 🟨
+`Preventive Care Recommendations`| [PCP](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb) | [PCP Annual Visit](#pcp-annual-visit---and-preventive-care-recommendations) | TBC | 🟨
 `Clinic Scheduling`| [_Administrative_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟨
 `Extract Lab Values`| [_Git_ and _GitHub_](https://github.com/UCL-DSS/git-workshop) | None | Philip | 🟩
 `TK05`| [_SQL_](https://github.com/UCL-DSS/SQL_workshop) | None | Philip | 🟩
@@ -38,13 +38,12 @@ Chat GPT can be helpful for physicians reviewing clinical records in several way
 ### Efficient Data Extraction   
   Chat GPT can assist in automatically extracting relevant data points, such as:
  
-    - Patient Demographics
-    - Medical History
-    - Medications
-    - Lab Results
-    - Diagnoses  
+- Patient Demographics
+- Medical History
+- Medications
+- Lab Results
+- Diagnoses  
     
-
 
 In this manner, it can be used to **analyze text and generate structured summaries**.
 
