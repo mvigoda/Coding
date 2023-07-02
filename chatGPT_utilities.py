@@ -3,7 +3,41 @@ import openai
 import webbrowser
 import json
 import csv
+import datetime
+from datetime import datetime
+from docx import Document
 
+def read_file(file_path):
+    with open(file_path, 'r') as file:
+        contents = file.read()
+        return contents
+    
+def write_to_file(file_name,patient_note,response):
+    file = open(file_name + '.txt' ,'w') 
+    now = datetime.now()
+
+    formatted_date = now.strftime("%a %b %d at %H:%M")
+    print(f'{formatted_date}')
+    file.write('Created on: ' + formatted_date + '\n'*2 )
+    
+    file.write(patient_note + '\n'*2 )
+    file.write(response + '\n'*2 )
+    print(f'{file_name} was created in {os.getcwd()}')
+    file.close() 
+    return
+
+
+
+
+
+
+
+
+
+def extract_letters(string):
+    pattern = r' (\w+):'
+    matches = re.findall(pattern, string)
+    return matches
 
 def setup_OpenAI_API():
     """
@@ -81,18 +115,14 @@ def get_completion_from_messages_FULL(messages,
 
 
 
-
-
-
-
 def print_token_usage(response_details,cost_per_unit = 0.002, number_tokens_per_unit = 1000):
-    print(f'Cost to run query is based on token usage, which is $0.002 / 1K tokens')
     try:
         # print(response.choices[0].message["content"])
-        print(f'\n\nToken Usage:\n\n')
-        print(f'completion_tokens: {response_details.usage["completion_tokens"]}')
-        print(f'prompt_tokens    : {response_details.usage["prompt_tokens"]}')
-        print(f'total_tokens     : {response_details.usage["total_tokens"]}')
+        print('\033[91m\033[1m' + '\n\nToken Usage:'+ '\033[0m')
+        print(f'Cost to run query is based on token usage, which is $0.002 / 1K tokens')
+        print(f'Completion tokens: {response_details.usage["completion_tokens"]:10,.0f}')
+        print(f'Prompt tokens    : {response_details.usage["prompt_tokens"]:10,.0f}')
+        print(f'Total tokens     : {response_details.usage["total_tokens"]:10,.0f}')
     except:
         print(f'The response does not contain any token usage data')
         print(f'This is because we used "get_completion_from_messages"')
@@ -100,6 +130,25 @@ def print_token_usage(response_details,cost_per_unit = 0.002, number_tokens_per_
     cost_of_tokens = cost_per_unit * (response_details.usage["total_tokens"]/number_tokens_per_unit)
     cost_of_query = round(cost_of_tokens,3)
     return cost_of_query
+
+
+
+
+# def print_token_usage(response_details,cost_per_unit = 0.002, number_tokens_per_unit = 1000):
+#     print(f'Cost to run query is based on token usage, which is $0.002 / 1K tokens')
+#     try:
+#         # print(response.choices[0].message["content"])
+#         print(f'\n\nToken Usage:\n\n')
+#         print(f'completion_tokens: {response_details.usage["completion_tokens"]}')
+#         print(f'prompt_tokens    : {response_details.usage["prompt_tokens"]}')
+#         print(f'total_tokens     : {response_details.usage["total_tokens"]}')
+#     except:
+#         print(f'The response does not contain any token usage data')
+#         print(f'This is because we used "get_completion_from_messages"')
+#         print(f'If you want token usage data you must use "get_completion_from_messages_FULL"')
+#     cost_of_tokens = cost_per_unit * (response_details.usage["total_tokens"]/number_tokens_per_unit)
+#     cost_of_query = round(cost_of_tokens,3)
+#     return cost_of_query
 
 def token_usage(response_details,cost_per_unit = 0.002, number_tokens_per_unit = 1000):
     try:
@@ -143,11 +192,6 @@ def openai_object_to_dict(obj):
     else:
         return obj
     
-
-def read_file(file_path):
-    with open(file_path, 'r') as file:
-        contents = file.read()
-        return contents
 
 
 
@@ -325,3 +369,74 @@ def convert_dict_to_json(dictionary):
     except TypeError as e:
         print(f"Error converting dictionary to JSON: {e}")
         return None
+    
+def replace_with_bold_red(string, substring):
+    """
+    : Replace substring with BOLD RED in the string
+    """
+    string = string.replace(substring,'\033[91m'+\
+                                     '\033[1m' + '\n\n' + substring + '\033[0m') 
+    return string
+
+def write_to_file(file_name,patient_note,response):
+    file = open(file_name + '.txt' ,'w') 
+    now = datetime.now()
+    formatted_date = now.strftime("%a %b %d at %H:%M") #print(f'{formatted_date}')
+    file.write('Created on: ' + formatted_date + '\n'*2 )
+    file.write(patient_note + '\n'*2 )
+    file.write(response + '\n'*2 ) #print(f'{file_name} was created in {os.getcwd()}')
+    file.close() 
+    return
+
+
+def capitalize_all_letters(string):
+    capitalized_string = ""
+    for char in string:
+        if char.isalpha():
+            capitalized_string += char.upper()
+        else:
+            capitalized_string += char
+    return capitalized_string
+
+
+def color_code_clinic_note(string,
+                           list_substrings,
+                          color):
+    """
+    : Input   : pt_note, which is a text string 
+                list_substrings, which are substrings
+    : Output  :
+    """
+    printing_colors = { 'Red' : '\033[91;1m',
+                   'Green' : '\033[92;1m',
+                    'Brown' : '\033[38;5;94;1m',
+                    'Blue' :  '\033[38;5;18;1m'  ,
+                    'Orange' : '\033[38;5;208;1m',
+                    'Black': '\033[255;0;0;1m',
+                    'Magenta' : '\033[38;5;90m',
+                    'Purple' : '\033[38;5;54m'}
+
+
+    
+   
+    assert color in printing_colors.keys(), \
+    color +  ' is NOT a recognized color for "color_code_clinic_note"'
+
+    string_for_display = string
+    for substr in list_substrings:
+        # patient_note_for_display = patient_note_for_display.replace(substr,
+        #                                                             '\033[91m\033[1m' + substr + '\033[0m')
+        string_for_display = string_for_display.replace(substr,
+                                  printing_colors[color] + substr +  '\033[0m' )
+    return string_for_display
+
+def highlight_text(text):
+    YELLOW_BACKGROUND = '\033[43m'
+    RESET_FORMATTING = '\033[0m'
+    return YELLOW_BACKGROUND + text + RESET_FORMATTING
+
+def convert_response_STR_to_DICT(response):
+    clean_string = response.replace('\n', '') # Remove unnecessary characters ('\n') from the string
+    data_dict = json.loads(clean_string)  # Convert the cleaned string to a dictionary
+    return data_dict
+
