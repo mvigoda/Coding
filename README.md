@@ -17,13 +17,10 @@
 
 
 <br>
-<div style="text-align: center;"><IMG SRC="Pics/Note_Bloat_Epic.png"  width="600" height="600" ALT="image">
+<div style="text-align: center;"><IMG SRC="Pics/Note_Bloat_Epic.png"  width="700" height="600" ALT="image">
 <br>
 
 
-
-
- 
 
  
 
