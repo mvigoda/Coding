@@ -96,39 +96,13 @@ The following code uses the chatGPT API and performs the following :
 	- 3-5 areas appropriate for the patient described in the clinical note.
 7. Preventive Care Recommendations - Personalized for the Patient
 
-```Preventive Health Recommendations
-
-1. Smoking cessation: Maria, quitting smoking is one of the best things you can do for your health. I recommend calling Kick it California at 1-800-300-8086 to get started on your journey to a smoke-free life.
-
-2. Cardiovascular disease prevention: Given your family history of cardiovascular disease, it's important to take steps to prevent it. I recommend incorporating more heart-healthy foods into your diet, such as fruits, vegetables, and whole grains. Additionally, regular exercise can help keep your heart healthy.
-
-3. Cancer screening: Maria, given your mother's history of colon cancer, it's important to stay up to date on your cancer screenings. I recommend scheduling a colonoscopy with your primary care physician to ensure that you are in good health.
-
-4. Osteoporosis prevention: As a woman over the age of 50, you are at an increased risk for osteoporosis. I recommend incorporating weight-bearing exercises into your routine, such as walking or lifting weights, to help keep your bones strong. Additionally, make sure you are getting enough calcium and vitamin D in your diet.
-
-5. Immunizations: It's important to stay up to date on your immunizations to prevent illness. I recommend getting a flu shot every year and discussing other recommended vaccines with your primary care physician.
-```
 
 7. Show Specific Reasons for Recommendations
 	- Medical Consideration
     	- Recommendation
     	- Reason for Recommendation
 
-```Preventive Health Recommendations
 
-1. Cardiovascular Disease Prevention
-    a. The patient reports a family history of cardiovascular disease, with her father having a heart attack in his late 60s.
-    b. Medical History: The patient has a history of hypertension and hyperlipidemia, both of which are well-managed with medications.
-    c. Assessment and Plan: Recommend regular cardiovascular screening, including blood pressure and cholesterol checks, as well as lifestyle modifications such as smoking cessation and regular exercise.
-
-2. Cancer Screening
-    a. Family History: The patient's mother had colon cancer but is currently in remission.
-    b. Assessment and Plan: Recommend regular colon cancer screening, such as colonoscopy, as well as breast cancer screening, such as mammography.
-
-3. Smoking Cessation
-    a. Social History: The patient smokes 1/2 ppd.
-    b. Assessment and Plan: Recommend smoking cessation interventions, such as nicotine replacement therapy or counseling, to reduce the risk of lung cancer and other smoking-related illnesses.
-```
 
 The notes are seen here:
 
