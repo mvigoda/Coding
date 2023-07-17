@@ -14,11 +14,11 @@
 
 ### Use Cases 
 
-Description | Link | Overview | Assigned To | Status
+Description | Specialty | Use Case | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
-`Synopsis of Multiple Clinic Notes`| [Oncology](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | [Synopsis of Multiple Clinic Notes](#synopsis-of-multiple-clinic-notes) | Philip | 🟩
-`Preventive Care Recommendations`| [PCP](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb) | [PCP Annual Visit](#pcp-annual-visit-and-preventive-care-recommendations) | TBC | 🟩
-`What has Happened Since...`| [_Administrative_](https://github.com/UCL-DSS/matplotlib-workshop) | Basic Python | TBC | 🟩
+`Synopsis of Multiple Clinic Notes`| [Oncology](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | [Synopsis of Multiple Clinic Notes](#synopsis-of-multiple-clinic-notes) |   | 🟩
+`Preventive Care Recommendations`| [PCP](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb) | [PCP Annual Visit](#pcp-annual-visit-and-preventive-care-recommendations) |   | 🟩
+`What has Happened Since...`| [Specialty](https://github.com/mvigoda/Coding/blob/master/What_has_happened_since_last_time_v_3.ipynb) | Interim Assessment |   | 🟩
 
 
 
