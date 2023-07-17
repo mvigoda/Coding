@@ -73,6 +73,9 @@ In this manner, it can be used to **analyze text and generate structured summari
 
 
 
+<a id="Use-Cases"></a>
+# Use Cases  
+
 <a id="synopsis-of-multiple-clinic-notes"></a>
 ## Synopsis of Multiple Clinic Notes  
 
@@ -123,10 +126,7 @@ The following code uses the chatGPT API and performs the following :
 ## What has Happened with my Patient since I last saw them?  
 
  
-
-
-A number of use cases are considered where chatGPT may prove useful for clinicians:
-1. [Cancer Patient Synopsis of Multiple Clinic Notes](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb)
+[Cancer Patient Synopsis of Multiple Clinic Notes](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb)
 	- Multiple clinic notes for the same patient 
 	- Organize them in chronological order
 	- Extract relevant data from each visit to provide a synopsis
