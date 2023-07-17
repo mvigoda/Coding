@@ -39,8 +39,7 @@ Description | Specialty | Use Case | Assigned To | Status
 
 
 
-Chat GPT can be helpful for physicians reviewing clinical records in several ways:
-
+## Clinical Applications Relevant to ChatGPT 
 ### Efficient Data Extraction   
   Chat GPT can assist in automatically extracting relevant data points, such as:
  
