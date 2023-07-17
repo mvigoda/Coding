@@ -18,8 +18,17 @@ Description | Specialty | Use Case | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
 `Synopsis of Multiple Clinic Notes`| [Oncology](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | [Synopsis of Multiple Clinic Notes](#synopsis-of-multiple-clinic-notes) |   | 🟩
 `Preventive Care Recommendations`| [PCP](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb) | [PCP Annual Visit](#pcp-annual-visit-and-preventive-care-recommendations) |   | 🟩
-`What has Happened Since...`| [Specialty](https://github.com/mvigoda/Coding/blob/master/What_has_happened_since_last_time_v_3.ipynb) | (#What-has-Happened) |   | 🟩
+`What has Happened Since...`| [Specialty](https://github.com/mvigoda/Coding/blob/master/What_has_happened_since_last_time_v_3.ipynb) | [Interim Assessment](#What-has-Happened) |   | 🟩
+`Future-Development`| Administrative | [Scheduling](#Scheduling) |   | 🟥
 
+
+
+> Legend:
+>
+> - 🟥: Not implemented
+> - 🟨: Legacy material available, to be updated or re-written
+> - 🟦: Available, modification required
+> - 🟩: Good to go
 
 
 
@@ -67,7 +76,12 @@ In this manner, it can be used to **analyze text and generate structured summari
 <a id="synopsis-of-multiple-clinic-notes"></a>
 ## Synopsis of Multiple Clinic Notes  
 
- 
+Using a collection of notes from the same patient:  
+Medications are highlighted, as well as the ANC and HCT values.
+![alt text](patient_notes_1.png "Here is Title")
+
+
+
 
 A number of use cases are considered where chatGPT may prove useful for clinicians:
 1. [Cancer Patient Synopsis of Multiple Clinic Notes](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb)
@@ -75,8 +89,6 @@ A number of use cases are considered where chatGPT may prove useful for clinicia
 	- Organize them in chronological order
 	- Extract relevant data from each visit to provide a synopsis
 
-Other use cases can be considered administrative:
-1. A patient has a medical concern and is interested in finding out when a particular is open.
 
 <a id="pcp-annual-visit-and-preventive-care-recommendations"></a>
 ## PCP Annual Visit - and Preventive Care Recommendations
@@ -104,11 +116,6 @@ The following code uses the chatGPT API and performs the following :
 
 
 
-The notes are seen here:  
-Medications are highlighted, as well as the ANC and HCT values.
-![alt text](patient_notes_1.png "Here is Title")
-
-
 
 
 
@@ -125,4 +132,15 @@ A number of use cases are considered where chatGPT may prove useful for clinicia
 	- Extract relevant data from each visit to provide a synopsis
 2. [PCP Annual Visit - and Preventive Care Recommendations](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb)
 
- 
+
+
+<a id="Future-Development"></a>
+## Future Development
+
+<a id="Scheduling"></a>
+## Scheduling
+
+
+### Administrative Use Cases
+1. A patient has a medical concern and is interested in finding out when a particular is open.
+
