@@ -130,12 +130,10 @@ A number of use cases are considered where chatGPT may prove useful for clinicia
 	- Multiple clinic notes for the same patient 
 	- Organize them in chronological order
 	- Extract relevant data from each visit to provide a synopsis
-2. [PCP Annual Visit - and Preventive Care Recommendations](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb)
-
 
 
 <a id="Future-Development"></a>
-## Future Development
+## For Future Development
 
 <a id="Scheduling"></a>
 ## Scheduling
@@ -143,4 +141,5 @@ A number of use cases are considered where chatGPT may prove useful for clinicia
 
 ### Administrative Use Cases
 1. A patient has a medical concern and is interested in finding out when a particular is open.
+2. How to schedule a colonoscopy/mammogram etc.
 
