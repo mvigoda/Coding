@@ -18,7 +18,7 @@ Description | Specialty | Use Case | Assigned To | Status
 :---:|:-----:|:------------:|:-----------:|:-----------:
 `Synopsis of Multiple Clinic Notes`| [Oncology](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb) | [Synopsis of Multiple Clinic Notes](#synopsis-of-multiple-clinic-notes) |   | 🟩
 `Preventive Care Recommendations`| [PCP](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb) | [PCP Annual Visit](#pcp-annual-visit-and-preventive-care-recommendations) |   | 🟩
-`What has Happened Since...`| [Specialty](https://github.com/mvigoda/Coding/blob/master/What_has_happened_since_last_time_v_3.ipynb) | Interim Assessment |   | 🟩
+`What has Happened Since...`| [Specialty](https://github.com/mvigoda/Coding/blob/master/What_has_happened_since_last_time_v_3.ipynb) | (#What-has-Happened) |   | 🟩
 
 
 
@@ -145,5 +145,26 @@ In the second note, we have highlighted the medications that are referenced in t
 ![alt text](patient_notes_1.png "Here is Title")
 
 
+
+
+
+<a id="What-has-Happened"></a>
+## What has Happened with my Patient since I last saw them?  
+
+Some Markdown text with <span style="color:red">some *red* text</span>.
+
+<div class="alert alert-block alert-danger">
+description goes here
+</div>
+
+ 
+
+
+A number of use cases are considered where chatGPT may prove useful for clinicians:
+1. [Cancer Patient Synopsis of Multiple Clinic Notes](https://github.com/mvigoda/Coding/blob/master/Cancer_Patient_Synopsis.ipynb)
+	- Multiple clinic notes for the same patient 
+	- Organize them in chronological order
+	- Extract relevant data from each visit to provide a synopsis
+2. [PCP Annual Visit - and Preventive Care Recommendations](https://github.com/mvigoda/Coding/blob/master/Infer_Preventive_Health_Recommendations.ipynb)
 
  
